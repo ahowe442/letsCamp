@@ -1,6 +1,6 @@
 # LetsCamp
 
-# Project Outline
+## Project Outline
 
 ### Overview of LetsCamp
 
