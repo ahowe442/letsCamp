@@ -4,7 +4,7 @@
 
 ### Overview of LetsCamp
 
-There are so many great palces to camp across the world. This app intends to share the best places to camp. Search for campgroupds by location, by user rating or by the pictures that users have submitted.
+There are so many great places to camp across the world. This app intends to use the power of the letsCamper collective to share the best places to camp. Letscampers can create accounts and create a collection of their favorite places. As a letsCamper, when you find a great place to camp just snap some photos and add it to your list of favorite camp sites in the app. Or perhaps you are you looking for campground to spend a few nights? You can search by location, by user rating or campground features. Finalize your selection by viewing the pictures that users have submitted.
 
 ### Features
 
