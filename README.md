@@ -2,7 +2,13 @@
 
 ## Project Outline & Overview
 
-There are so many great places to camp across the world. This app intends to use the power of the social collective to share the best places to camp. Campers can create accounts and a collection of their favorite places. They can also blog or photo journal their adventures. As an app user, when you find a great place to camp just snap some photos and add it to your list of favorite camp sites in the app. Or perhaps you are you looking for campground to spend a few nights? You can search by location, by user rating or campground features. Finalize your selection by viewing the pictures that users have submitted.
+### Camper
+
+There are so many great places to camp across the world. This app intends to use the power of the social collective to share the best non-commercial places to camp. Campers can create accounts and a collection of their favorite places. They can also blog or photo journal their adventures. As an app user, when you find a great place to camp just snap some photos and add it to your list of favorite camp sites in the app. Or perhaps you are you looking for campground to spend a few nights? You can search by location, by user rating or campground features. Finalize your selection by viewing the pictures that users have submitted.
+
+### Host
+
+Perhaps you have the perfect spot to share with others who are passing through. Let them know what amenities you offer and what your rates are for camping. Let users book their stays based on the availability you share.
 
 ### Features
 
