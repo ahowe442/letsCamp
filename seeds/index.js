@@ -37,10 +37,14 @@ const seedDB = async () => {
   // assign random seed names to the descriptor and place.
   for (let i = 0; i < 50; i++) {
     const random1000 = Math.floor(Math.random() * 1000);
+    const price = Math.floor(Math.random() * 20) + 10;
     const camp = new Campground({
       location: `${cities[random1000].city}, ${cities[random1000].state}`,
       // assign random seed names to the descriptor and place.
       title: `${sample(descriptors)} ${sample(places)}`,
+      image: 'https://source.unsplash.com/collection/483251',
+      description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel ad quis cum earum suscipit accusamus, eaque error, distinctio aspernatur consequuntur accusantium, debitis libero rem. Soluta omnis velit iure unde cum?  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel ad quis cum earum suscipit accusamus, eaque error, distinctio aspernatur consequuntur accusantium, debitis libero rem. Soluta omnis velit iure unde cum?  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel ad quis cum earum suscipit accusamus, eaque error, distinctio aspernatur consequuntur accusantium, debitis libero rem. Soluta omnis velit iure unde cum?',
+      price,
     });
     // eslint-disable-next-line no-await-in-loop
     await camp.save();
