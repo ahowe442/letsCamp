@@ -10,7 +10,7 @@ There are so many great places to camp across the world. This app intends to use
 
 Perhaps you have the perfect spot to share with others who are passing through. Let them know what amenities you offer and what your rates are for camping. Let users book their stays based on the availability you share.
 
-### Features
+### Application Features
 
 - **User Login & Authorization**
   > Users will be able to create accounts and log in to the application.
