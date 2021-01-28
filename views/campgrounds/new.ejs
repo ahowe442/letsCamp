@@ -8,25 +8,34 @@
                 <div class="mb-3">
                     <label class="form-label" for="title">Title</label>
                     <input class="form-control" type="text" name="campground[title]" id="title" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="location">Location</label>
                     <input class="form-control" type="text" name="campground[location]" id="location" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="image">Image Url</label>
                     <input class="form-control" type="text" name="campground[image]" id="image" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
                 </div>
-                <label class="form-label" for="price">Campground Price</label required >
+                <label class="form-label" for="price">Campground Price</label required>
                 <div class="input-group mb-3">
-                    <span class="input-group-text" id="price">$</span>
-                    <input type="text" class="form-control" placeholder="0.00" aria-label="price"
-                        aria-describedby="price-label">
+                    <span class="input-group-text" id="price-label">$</span>
+                    <input type="text" class="form-control" placeholder="0.00" id="price" aria-label="price"
+                        aria-describedby="price-label" name=campground[price] required>
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="description">Description</label>
-                    <textarea class="form-control" type="text" name="campground[description]" id="description" required>
-                 </textarea>
+                    <textarea class="form-control" type="text" name="campground[description]" id="description"
+                        required></textarea>
                 </div>
                 <div class="mb-3">
                     <button class="btn btn-success">Add Campground</button>
@@ -38,23 +47,23 @@
     </div>
     <script>
         // Example starter JavaScript for disabling form submissions if there are invalid fields
-(function () {
-  'use strict'
+        (function () {
+            'use strict'
 
-  // Fetch all the forms we want to apply custom Bootstrap validation styles to
-  var forms = document.querySelectorAll('.needs-validation')
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
 
-  // Loop over them and prevent submission
-  Array.prototype.slice.call(forms)
-    .forEach(function (form) {
-      form.addEventListener('submit', function (event) {
-        if (!form.checkValidity()) {
-          event.preventDefault()
-          event.stopPropagation()
-        }
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
 
-        form.classList.add('was-validated')
-      }, false)
-    })
-})()
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
     </script>
