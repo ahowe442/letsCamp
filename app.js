@@ -5,6 +5,7 @@ const path = require('path');
 const mongoose = require('mongoose');
 const ejsMate = require('ejs-mate');
 const methodOverride = require('method-override');
+const Joi = require('joi');
 const { join } = require('path');
 const { privateEncrypt } = require('crypto');
 const { campgroundSchema } = require('./schemas.js');
